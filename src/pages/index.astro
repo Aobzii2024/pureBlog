@@ -11,9 +11,15 @@ import Section from '@/components/home/Section.astro'
 import SkillLayout from '@/components/home/SkillLayout.astro'
 import config from '@/site-config'
 
+<<<<<<< HEAD
 const languages = ['Html', 'JavaScript', 'CSS', 'Shell']
 const frontend = ['TypeScript', 'Vite', 'Webpack', 'Astro']
 const backend = ['Vercel', 'Waline']
+=======
+// const languages = ['Html', 'JavaScript', 'CSS', 'Shell']
+// const frontend = ['TypeScript', 'Vite', 'Webpack', 'Astro']
+// const backend = ['Vercel', 'Waline']
+>>>>>>> 600a54df5418f3335458fcede0126f6d718afda2
 
 const MAX_POSTS = 10
 const allPosts = await getBlogCollection()
@@ -49,7 +55,11 @@ if (!images[imagePath])
           <Label
             title='Source code'
             as='a'
+<<<<<<< HEAD
             href='https://github.com/cworld1/astro-theme-pure'
+=======
+            href='https://github.com/Tonybug777'
+>>>>>>> 600a54df5418f3335458fcede0126f6d718afda2
             target='_blank'
           >
             <Icon name='github' class='size-5' slot='icon' />
@@ -57,7 +67,11 @@ if (!images[imagePath])
         </div>
       </div>
 
+<<<<<<< HEAD
       {/* Get template */}
+=======
+      <!-- {/* Get template */}
+>>>>>>> 600a54df5418f3335458fcede0126f6d718afda2
       <a
         href='https://github.com/cworld1/astro-theme-pure'
         target='_blank'
@@ -70,7 +84,11 @@ if (!images[imagePath])
           <span class='size-2 rounded-full bg-green-400'></span>
         </span>
         <p class='font-medium text-muted-foreground'>Get Template</p>
+<<<<<<< HEAD
       </a>
+=======
+      </a> -->
+>>>>>>> 600a54df5418f3335458fcede0126f6d718afda2
     </section>
 
     <div id='content' class='animate flex flex-col gap-y-10 md:w-4/5 lg:w-5/6'>
@@ -125,8 +143,13 @@ if (!images[imagePath])
         altText='Lorem, ipsum dolor sit'
         imageClass='h-12 w-auto md:-start-16'
       />
+<<<<<<< HEAD
     </Section> */
       }
+=======
+    </Section> 
+      }*/
+>>>>>>> 600a54df5418f3335458fcede0126f6d718afda2
       <Section title='Education'>
         <Card
           as='a'
@@ -147,7 +170,11 @@ if (!images[imagePath])
         </Card>
       </Section>
 
+<<<<<<< HEAD
       <Section title='Website List'>
+=======
+      <!-- <Section title='Website List'>
+>>>>>>> 600a54df5418f3335458fcede0126f6d718afda2
         <div class='grid grid-cols-1 gap-3 sm:grid-cols-2'>
           <ProjectCard
             href='https://www.youtube.com/watch?v=dQw4w9WgXcQ'
@@ -174,9 +201,15 @@ if (!images[imagePath])
             imagePath='/src/assets/projects/4.jpg'
           />
         </div>
+<<<<<<< HEAD
       </Section>
 
       <Section title='Certifications'>
+=======
+      </Section> -->
+
+      <!-- <Section title='Certifications'>
+>>>>>>> 600a54df5418f3335458fcede0126f6d718afda2
         <Card
           as='a'
           heading='Lorem ipsum'
@@ -184,6 +217,7 @@ if (!images[imagePath])
           date='July 2024'
           href='https://www.youtube.com/watch?v=dQw4w9WgXcQ'
         />
+<<<<<<< HEAD
       </Section>
 
       <Section title='Skills'>
@@ -191,6 +225,15 @@ if (!images[imagePath])
         <SkillLayout title='Frontend' skills={frontend} />
         <SkillLayout title='Backend' skills={backend} />
       </Section>
+=======
+      </Section> -->
+
+      <!-- <Section title='Skills'>
+        <SkillLayout title='Languages' skills={languages} />
+        <SkillLayout title='Frontend' skills={frontend} />
+        <SkillLayout title='Backend' skills={backend} />
+      </Section> -->
+>>>>>>> 600a54df5418f3335458fcede0126f6d718afda2
     </div>
     <Quote class='mt-12' />
   </main>

@@ -1,4 +1,8 @@
+<<<<<<< HEAD
 import { z } from 'zod'
+=======
+import { z } from 'astro/zod'
+>>>>>>> 600a54df5418f3335458fcede0126f6d718afda2
 
 import { IntegrationConfigSchema } from './integrations-config'
 import { ThemeConfigSchema } from './theme-config'

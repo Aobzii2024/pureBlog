@@ -41,6 +41,7 @@ const blog = defineCollection({
 })
 
 // Define docs collection
+<<<<<<< HEAD
 const docs = defineCollection({
   loader: glob({ base: './src/content/docs', pattern: '**/*.{md,mdx}' }),
   schema: () =>
@@ -57,3 +58,22 @@ const docs = defineCollection({
 })
 
 export const collections = { blog, docs }
+=======
+//  I don't need this 
+// const docs = defineCollection({
+//   loader: glob({ base: './src/content/docs', pattern: '**/*.{md,mdx}' }),
+//   schema: () =>
+//     z.object({
+//       title: z.string().max(60),
+//       description: z.string().max(160),
+//       publishDate: z.coerce.date().optional(),
+//       updatedDate: z.coerce.date().optional(),
+//       tags: z.array(z.string()).default([]).transform(removeDupsAndLowerCase),
+//       draft: z.boolean().default(false),
+//       // Special fields
+//       order: z.number().default(999)
+//     })
+// })
+
+export const collections = { blog }
+>>>>>>> 600a54df5418f3335458fcede0126f6d718afda2

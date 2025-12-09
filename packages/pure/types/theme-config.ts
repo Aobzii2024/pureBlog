@@ -150,7 +150,11 @@ export const ThemeConfigSchema = () =>
       credits: z
         .boolean()
         .default(true)
+<<<<<<< HEAD
         .describe('Enable displaying a “Built with Starlight” link in your site’s footer.'),
+=======
+        .describe('Enable displaying a “Built with Starlight” link in your site\'s footer.'),
+>>>>>>> 600a54df5418f3335458fcede0126f6d718afda2
 
       /**
        * Optional details about the social media accounts for this site.
